@@ -1,4 +1,4 @@
-
+import IconBadge from "../Element/IconBadge";
 
 function Navbar() {
     return(
@@ -27,6 +27,8 @@ function Navbar() {
                 <div className="w-8 h-8 flex items-center justify-center p-2 bg-primer rounded-lg">
                     <i className="uil uil-github-alt text-xl text-secondary"></i>
                 </div>
+
+                <IconBadge icon="uil-github"/>
             </header>
     )
 }

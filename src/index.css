@@ -71,3 +71,8 @@ button:focus-visible {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.container-icon-badge{
+  @apply w-8 h-8 flex items-center justify-center p-2 bg-primer/10 rounded-lg
+}

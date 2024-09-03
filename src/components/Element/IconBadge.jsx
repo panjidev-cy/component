@@ -1,9 +1,11 @@
 
 
-function IconBadge(){
+function IconBadge(props){
+    const{icon} = props;
+    
     return(
-        <div className="w-8 h-8 flex items-center justify-center p-2 bg-primer rounded-lg">
-            <i className="uil uil-backpack text-xl text-secondary" />
+        <div className="container-icon-badge">
+            <i className={`uil ${icon} text-xl text-secondary`} />
         </div>
     )
 }
