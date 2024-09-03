@@ -5,7 +5,7 @@ function IconBadge(props){
     
     return(
         <div className="container-icon-badge">
-            <i className={`uil ${icon} text-xl text-secondary`} />
+            <i className={`uil ${icon} icon-bagde`} />
         </div>
     )
 }
