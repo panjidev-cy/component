@@ -1,10 +1,30 @@
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
 function Hero(){
+
+    useGSAP(()=>{
+        gsap.to('#container-hero', { x: 30, opacity: 1, duration: 1, delay: 3})
+        gsap.to('.text-1', {x: 30, duration: .9, delay: 3})
+        gsap.to('.text-2', {x: -30, duration: .9, delay: 3.1})
+        gsap.to('.text-3', {x: 30, duration: .9, delay: 3.2})
+        gsap.to('.text-4', {y: 30, duration: .9, delay: 3.3})
+    })
+
     return(
-        <section className="flex items-center justify-center h-screen">
-            <div className="flex flex-col items-center justify-center h-screen w-5/6 text-white">
-                <div>desain biar nggak B aja </div>
-                <div>komponen  <span>UI/UX</span></div>
-                <div>kece buat lo!</div>
+        <section className="flex items-center justify-center h-screen ">
+            <div 
+            id="container-hero"
+            className="flex flex-col items-center justify-center h-screen w-5/6 text-white font-poppins gap-4 opacity-0">
+                <div className=" text-1 text-5xl  font-medium whitespace-nowrap items-end gradient-multi-silver ">desain biar nggak B aja </div>
+                <div className="text-2 text-6xl font-semibold flex items-center gap-3 mr-40 gradient-multi-silver">
+                    <div className="w-12 h-2 bg-white"></div> 
+                    komponen
+                </div>
+                <div className="text-3 flex ml-20 ">
+                    <div className="text-5xl  whitespace-nowrap"><span className="gradient-multi-gold font-semibold text-8xl">UI/UX</span></div>
+                    <div className="text-4 text-4xl whitespace-nowrap gradient-multi-silver">kece buat lo!</div>
+                </div>
             </div>
         </section>
     )

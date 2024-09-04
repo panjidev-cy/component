@@ -19,8 +19,10 @@ function Navbar() {
             <div 
             className="flex items-center gap-2 relative right-10 opacity-0"
             id="icon">
-                <IconBadge icon="uil-backpack"/>
                 <div className="md:hidden">
+                    <IconBadge icon="uil-backpack"/>
+                </div>
+                <div className="">
                     <h2 className="text-lg font-semibold capitalize font-poppins text-gray-100">
                         Back<span className="text-primer italic font-semibold">pack</span>
                     </h2>

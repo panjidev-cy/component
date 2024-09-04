@@ -77,3 +77,24 @@ button:focus-visible {
   @apply h-8 w-8 flex items-center justify-center p-2 bg-primer/80 text-dark rounded-lg text-2xl hover:bg-primer/90 transition-colors
 }
 
+
+.gradient-multi-gold {
+  background: linear-gradient(to right, #ae8625, #f7ef8a, #d2ac47, #edc967);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  filter: drop-shadow(0 0 2rem #edc967ac);
+}
+
+.gradient-multi-silver {
+  background: linear-gradient(to bottom, #a8a9ad, #b5b7bb, #cccccc, #757575, #afb1ae);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  filter: drop-shadow(0 0 3rem #cccccc);
+}
