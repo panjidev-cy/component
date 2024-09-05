@@ -16,12 +16,12 @@ function Hero(){
             <div 
             id="container-hero"
             className="flex flex-col items-center justify-center h-screen w-5/6 text-white font-poppins gap-4 md:gap-2 opacity-0">
-                <div className=" text-1 text-5xl  md:text-3xl font-medium whitespace-nowrap items-end gradient-multi-silver ">desain biar nggak B aja </div>
-                <div className="text-2 text-6xl md:text-3xl font-semibold flex items-center gap-3 mr-40 gradient-multi-silver">
+                <div className=" text-1 text-5xl  md:text-3xl font-medium whitespace-nowrap md:whitespace-normal items-end gradient-multi-silver ">desain biar nggak B aja </div>
+                <div className="text-2 text-6xl md:text-3xl font-semibold flex items-center gap-3 ml-10 gradient-multi-silver">
                     <div className="w-12 h-2 bg-white"></div> 
                     komponen
                 </div>
-                <div className="text-3 flex ml-20 ">
+                <div className="text-3 flex ml-5 ">
                     <div className="text-5xl md:text-3xl whitespace-nowrap"><span className="gradient-multi-gold font-semibold text-8xl md:text-5xl">UI/UX</span></div>
                     <div className="text-4 md:text-2xl text-4xl whitespace-nowrap gradient-multi-silver"> kece buat lo!</div>
                 </div>
