@@ -15,15 +15,15 @@ function Hero(){
         <section className="flex items-center justify-center h-screen ">
             <div 
             id="container-hero"
-            className="flex flex-col items-center justify-center h-screen  text-white font-poppins gap-4 md:gap-2 opacity-0 -ml-32 m-8">
+            className="flex flex-col items-center justify-center h-screen  text-white font-poppins gap-4 md:gap-2 opacity-0 -ml-24 m-8">
                 <div className=" text-1 text-5xl  md:text-3xl font-medium whitespace-nowrap md:text-center md:break-words items-end gradient-multi-silver ">desain biar nggak B aja </div>
-                <div className="text-2 text-6xl md:text-3xl font-semibold flex items-center gap-3 ml-10 gradient-multi-silver">
-                    <div className="w-12 h-2 bg-white"></div> 
+                <div className="text-2 text-6xl md:text-3xl font-semibold flex items-center gap-2 ml-10 gradient-multi-silver">
+                    <div className="w-12 h-2 md:w-8 md:h-1 rounded-lg bg-white/30"></div> 
                     komponen
                 </div>
-                <div className="text-3 flex ml-5 ">
+                <div className="text-3 flex ml-5 gap-2">
                     <div className="text-5xl md:text-3xl whitespace-nowrap"><span className="gradient-multi-gold font-semibold text-8xl md:text-5xl">UI/UX</span></div>
-                    <div className="text-4 md:text-2xl text-4xl whitespace-nowrap gradient-multi-silver"> kece buat lo!</div>
+                    <div className="text-4 md:text-2xl font-medium text-4xl whitespace-nowrap gradient-multi-silver"> kece buat lo!</div>
                 </div>
             </div>
         </section>
