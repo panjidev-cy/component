@@ -4,19 +4,19 @@ import { useGSAP } from "@gsap/react";
 function Hero(){
 
     useGSAP(()=>{
-        gsap.to('#container-hero', { x: 30, opacity: 1, duration: 1, delay: 3})
-        gsap.to('.text-1', {x: 30, duration: .9, delay: 3})
-        gsap.to('.text-2', {x: -30, duration: .9, delay: 3.1})
-        gsap.to('.text-3', {x: 30, duration: .9, delay: 3.2})
-        gsap.to('.text-4', {y: 20, duration: .9, delay: 3.3})
+        gsap.to('#container-hero', { x: 30, opacity: 1, duration: 1, delay: 2.1})
+        gsap.to('.text-1', {x: 30, duration: .9, delay: 2.2})
+        gsap.to('.text-2', {x: -30, duration: .9, delay: 2.2})
+        gsap.to('.text-3', {x: 30, duration: .9, delay: 2.2})
+        gsap.to('.text-4', {y: 20, duration: .9, delay: 2.3})
     })
 
     return(
         <section className="flex items-center justify-center h-screen ">
             <div 
             id="container-hero"
-            className="flex flex-col items-center justify-center h-screen  text-white font-poppins gap-4 md:gap-2 opacity-0 -ml-24 m-8">
-                <div className=" text-1 text-5xl  md:text-3xl font-medium whitespace-nowrap md:text-center md:break-words items-end gradient-multi-silver ">desain biar nggak B aja </div>
+            className="flex flex-col items-center justify-center h-screen w-full text-white font-poppins gap-4 md:gap-2 opacity-0 -ml-24 m-8">
+                <div className=" text-1 text-5xl  md:text-3xl font-medium lg:whitespace-nowrap md:text-center  items-end gradient-multi-silver ">desain biar nggak B aja </div>
                 <div className="text-2 text-6xl md:text-3xl font-semibold flex items-center gap-2 ml-10 gradient-multi-silver">
                     <div className="w-12 h-2 md:w-8 md:h-1 rounded-lg bg-white/30"></div> 
                     komponen
