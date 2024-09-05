@@ -15,8 +15,8 @@ function Hero(){
         <section className="flex items-center justify-center h-screen ">
             <div 
             id="container-hero"
-            className="flex flex-col items-center justify-center h-screen  text-white font-poppins gap-4 md:gap-2 opacity-0 -ml-32">
-                <div className=" text-1 text-5xl  md:text-3xl font-medium whitespace-nowrap md:text-center md:whitespace-normal items-end gradient-multi-silver ">desain biar nggak B aja </div>
+            className="flex flex-col items-center justify-center h-screen  text-white font-poppins gap-4 md:gap-2 opacity-0 -ml-32 m-8">
+                <div className=" text-1 text-5xl  md:text-3xl font-medium whitespace-nowrap md:text-center md:break-words items-end gradient-multi-silver ">desain biar nggak B aja </div>
                 <div className="text-2 text-6xl md:text-3xl font-semibold flex items-center gap-3 ml-10 gradient-multi-silver">
                     <div className="w-12 h-2 bg-white"></div> 
                     komponen
